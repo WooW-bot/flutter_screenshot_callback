@@ -1,8 +1,10 @@
 name: flutter_screenshot_callback_plus
-description: screenshot callback
+description: A Flutter plugin for detecting screenshot events on Android and iOS platforms with enhanced features and improved compatibility.
 version: 1.0.0
-homepage: https://github.com/WooW-bot/flutter_screenshot_callback.git
-repository: https://github.com/WooW-bot/flutter_screenshot_callback.git
+homepage: https://github.com/WooW-bot/flutter_screenshot_callback
+repository: https://github.com/WooW-bot/flutter_screenshot_callback
+issue_tracker: https://github.com/WooW-bot/flutter_screenshot_callback/issues
+documentation: https://github.com/WooW-bot/flutter_screenshot_callback#readme
 
 environment:
   sdk: ^3.9.0

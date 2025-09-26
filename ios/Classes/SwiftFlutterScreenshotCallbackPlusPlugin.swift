@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 
-public class SwiftFlutterScreenshotCallbackPlugin: NSObject, FlutterPlugin {
+public class SwiftFlutterScreenshotCallbackPlusPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "screenshot_callback", binaryMessenger: registrar.messenger())
     NotificationCenter.default.addObserver(forName: UIApplication.userDidTakeScreenshotNotification, object: nil, queue: OperationQueue.main) { (noti: Notification) in
@@ -10,7 +10,7 @@ public class SwiftFlutterScreenshotCallbackPlugin: NSObject, FlutterPlugin {
         channel.invokeMethod("screenshotCallback", arguments: path);
     }
     
-    let instance = SwiftFlutterScreenshotCallbackPlugin()
+    let instance = SwiftFlutterScreenshotCallbackPlusPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

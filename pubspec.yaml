@@ -1,13 +1,12 @@
-name: flutter_screenshot_callback
+name: flutter_screenshot_callback_plus
 description: screenshot callback
-version: 0.0.9
-homepage: https://github.com/Super-Bin/flutter_screenshot_callback.git
-repository: https://github.com/Super-Bin/flutter_screenshot_callback.git
-author: zzb
+version: 1.0.0
+homepage: https://github.com/WooW-bot/flutter_screenshot_callback.git
+repository: https://github.com/WooW-bot/flutter_screenshot_callback.git
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=2.0.0"
+  sdk: ^3.9.0
+  flutter: '>=3.3.0'
 
 dependencies:
   flutter:
@@ -29,10 +28,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.flutter.screenshot_callback
-        pluginClass: ScreenshotCallbackPlugin
+        package: com.flutter.screenshot_callback_plus
+        pluginClass: ScreenshotCallbackPlusPlugin
       ios:
-        pluginClass: FlutterScreenshotCallbackPlugin
+        pluginClass: FlutterScreenshotCallbackPlusPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

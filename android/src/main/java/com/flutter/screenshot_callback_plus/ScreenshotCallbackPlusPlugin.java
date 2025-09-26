@@ -1,4 +1,4 @@
-package com.flutter.screenshot_callback;
+package com.flutter.screenshot_callback_plus;
 
 import android.app.Activity;
 import android.util.Log;
@@ -14,12 +14,11 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /**
  * ScreenshotCallbackPlugin
  */
-public class ScreenshotCallbackPlugin implements FlutterPlugin, MethodCallHandler, ActivityAware, ScreenShotListenManager.OnScreenShotListener {
+public class ScreenshotCallbackPlusPlugin implements FlutterPlugin, MethodCallHandler, ActivityAware, ScreenShotListenManager.OnScreenShotListener {
   private static final String TAG = "ScreenshotCallback";
     /// The MethodChannel that will the communication between Flutter and native Android
     ///

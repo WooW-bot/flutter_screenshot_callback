@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_screenshot_callback/flutter_screenshot_callback.dart';
+import 'package:flutter_screenshot_callback_plus/flutter_screenshot_callback_plus.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> implements IScreenshotCallback {
   String _imagePath = 'Unknown';
-  ScreenshotCallback _screenshotCallback;
+  late ScreenshotCallback _screenshotCallback;
 
   @override
   void initState() {

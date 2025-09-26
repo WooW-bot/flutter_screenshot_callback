@@ -1,4 +1,4 @@
-package com.flutter.screenshot_callback;
+package com.flutter.screenshot_callback_plus;
 
 import android.Manifest;
 import android.annotation.TargetApi;

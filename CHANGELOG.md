@@ -1,3 +1,9 @@
+## 1.0.1
+
+* **FIXED**: Publication requirements and package metadata improvements
+* **IMPROVED**: Updated package documentation and repository links
+* **IMPROVED**: Enhanced package description for better discoverability
+
 ## 1.0.0
 
 * **BREAKING CHANGE**: Package renamed to `flutter_screenshot_callback_plus`
